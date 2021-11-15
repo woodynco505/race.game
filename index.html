@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+
+    <section class="rail">
+        
+        <div class ="rail__road">
+            <article class="rail__road__ball1" id="ball1">1</article>
+        </div>
+        <div class ="rail__road">
+            <article class="rail__road__ball2" id="ball2">2</article>
+        </div>
+        <div class ="rail__road">
+            <article class="rail__road__ball3" id="ball3">3</article>
+        </div>
+        <div class ="rail__road">
+           <article class="rail__road__ball4" id="ball4">4</article> 
+        </div>
+    </section>
+
+    <section class="status">
+        <select id= "combo" class="status__combo">
+            <option value="">--선택--</option>
+            <option value="1">1번</option>
+            <option value="2">2번</option>
+            <option value="3">3번</option>
+            <option value="4">4번</option>
+        </select>
+        <button onclick="javascript:startClickHandler()" class="status__btn">
+            GAME START
+        </button>
+
+    </section>
+
+    <section class="result"></section>
+</body>
+
+    <script src="./init.js"></script>
+</html>
