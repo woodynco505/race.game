@@ -25,6 +25,10 @@
     height: 60px;
     border-radius: 100%;
     background-color:aqua;
+    text-align: center;
+    font: 30px Arial ;
+    color:#fff;
+    padding: 10px;
 }
 
 .rail__road__ball2{
@@ -32,6 +36,11 @@
     height: 60px;
     border-radius: 100%;
     background-color:blueviolet;
+    text-align: center;
+    font: 30px Arial ;
+    color:#fff;
+    padding: 10px;
+
 }
 
 .rail__road__ball3{
@@ -39,13 +48,21 @@
     height: 60px;
     border-radius: 100%;
     background-color:skyblue;
+    text-align: center;
+    font: 30px Arial ;
+    color:#fff;
+    padding: 10px;
 }
 
 .rail__road__ball4{
     width: 60px;
     height: 60px;
     border-radius: 100%;
-    background-color:brown;
+    background-color:pink;
+    text-align: center;
+    font: 30px Arial ;
+    color:#fff;
+    padding: 10px;
 }
 
 .status {

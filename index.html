@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>RACE GAME</title>
     <link rel="stylesheet" href="./style.css" />
 </head>
 <body>
@@ -27,17 +27,15 @@
 
     <section class="status">
         <select id= "combo" class="status__combo">
-            <option value="">--선택--</option>
-            <option value="1">1번</option>
-            <option value="2">2번</option>
-            <option value="3">3번</option>
-            <option value="4">4번</option>
+            <option value="">PICK</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
         </select>
-        <button onclick="javascript:startClickHandler()" class="status__btn">
-            GAME START
-        </button>
-
-    </section>
+        <button onclick="javascript:startClickHandler()" class="status__btn">GAME START</button>
+        <button onclick="javascript:resetClickHandler()" class="status__btn">RESET</button>
+        </section>
 
     <section class="result"></section>
 </body>
